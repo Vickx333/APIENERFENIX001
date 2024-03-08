@@ -1,4 +1,4 @@
-# API de Integración NetSuite - Punto de Venta
+# API de Integración NetSuite - Punto de Venta ADMIN
 
 Esta API JSON proporciona una interfaz para interactuar con NetSuite desde un software de punto de venta (POS). Permite realizar operaciones como la creación de clientes, gestión de cuentas, registro de transacciones y más. La API está diseñada para proporcionar una integración eficiente y segura entre el POS y NetSuite.
 
