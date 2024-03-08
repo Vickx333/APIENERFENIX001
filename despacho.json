@@ -1,0 +1,13 @@
+{
+  "despacho": {
+    "crear": {
+      "ruta": "/despacho/crear",
+      "metodo_http": "POST",
+      "descripcion": "Crea un nuevo despacho en NetSuite.",
+      "ejemplo_parametros": {
+        "fecha": "2024-03-08",
+        "descripcion": "Descripción del despacho"
+      }
+    }
+  }
+}
