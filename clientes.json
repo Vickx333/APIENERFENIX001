@@ -1,0 +1,27 @@
+{
+  "clientes": {
+    "crear": {
+      "ruta": "/clientes/crear",
+      "metodo_http": "POST",
+      "descripcion": "Crea un nuevo cliente en NetSuite.",
+      "ejemplo_parametros": {
+        "nombre": "Cliente de ejemplo",
+        "direccion": "123 Calle Principal",
+        "telefono": "555-1234",
+        "email": "cliente@example.com"
+      }
+    },
+    "modificar": {
+      "ruta": "/clientes/modificar",
+      "metodo_http": "PUT",
+      "descripcion": "Modifica un cliente existente en NetSuite.",
+      "ejemplo_parametros": {
+        "id_cliente": 12345,
+        "nombre": "Nuevo nombre del cliente",
+        "direccion": "456 Calle Secundaria",
+        "telefono": "555-5678",
+        "email": "nuevo_cliente@example.com"
+      }
+    }
+  }
+}
