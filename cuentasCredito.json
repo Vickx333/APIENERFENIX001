@@ -1,0 +1,23 @@
+{
+  "cuentas_credito": {
+    "crear": {
+      "ruta": "/cuentas_credito/crear",
+      "metodo_http": "POST",
+      "descripcion": "Crea una nueva cuenta de crédito en NetSuite.",
+      "ejemplo_parametros": {
+        "cliente_id": 12345,
+        "monto_maximo": 1000,
+        "fecha_apertura": "2024-01-01"
+      }
+    },
+    "modificar": {
+      "ruta": "/cuentas_credito/modificar",
+      "metodo_http": "PUT",
+      "descripcion": "Modifica una cuenta de crédito existente en NetSuite.",
+      "ejemplo_parametros": {
+        "cuenta_id": 54321,
+        "nuevo_monto_maximo": 2000
+      }
+    }
+  }
+}
