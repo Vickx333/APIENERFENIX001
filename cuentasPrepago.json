@@ -1,0 +1,23 @@
+{
+  "cuentas_prepago": {
+    "crear": {
+      "ruta": "/cuentas_prepago/crear",
+      "metodo_http": "POST",
+      "descripcion": "Crea una nueva cuenta prepago en NetSuite.",
+      "ejemplo_parametros": {
+        "cliente_id": 12345,
+        "saldo_inicial": 500,
+        "fecha_creacion": "2024-01-01"
+      }
+    },
+    "modificar": {
+      "ruta": "/cuentas_prepago/modificar",
+      "metodo_http": "PUT",
+      "descripcion": "Modifica una cuenta prepago existente en NetSuite.",
+      "ejemplo_parametros": {
+        "cuenta_id": 54321,
+        "nuevo_saldo": 700
+      }
+    }
+  }
+}
