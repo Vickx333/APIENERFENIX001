@@ -1,0 +1,13 @@
+{
+  "total_cargas": {
+    "crear": {
+      "ruta": "/total_cargas/crear",
+      "metodo_http": "POST",
+      "descripcion": "Crea un nuevo registro de total de cargas en NetSuite.",
+      "ejemplo_parametros": {
+        "fecha": "2024-03-08",
+        "cantidad_cargas": 100
+      }
+    }
+  }
+}
